@@ -10,6 +10,7 @@ Um Sistema que realiza vendas de computadores e calculo de preço de venda.
  controle de caixa, de entrada e saída de estoques e cadastro de produtos.
 
 # Estórias
+
  Como vendedor, necessito do cadastro dos produtos com as seguintes especificações: modelo,
  serial, marca, memória, processamento e sistema operacional.
  
