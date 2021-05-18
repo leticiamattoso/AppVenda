@@ -41,7 +41,7 @@ public class VendaTest {
      */
 
     @Test
-    public void operacaoDevenda() {
+    public void deveSerExecutadoComSucesso() {
 
         List<Produto> produtos = Arrays.asList(produto1, produto2, produto3, produto4, produto5);
 

@@ -23,16 +23,16 @@ public class ProdutoTest
     }
 
     @Test
-    public void deveOcorrerAExcecaoValorDeCustoNaoPodeSerMenorIgualAZero()
+    public void deveOcorrerAExcecaoValorNaoPodeSerMenorIgualAZero()
     {
         
-        Produto product = Produto.create("", "", "", "", "", "", Quantidade.of(1), Valor.of(10));
+        Produto product = Produto.create("", "", "", "", "", "", Quantidade.of(1), Valor.of(-10));
     }
 
     @Test
-    public void deveOcorrerAExcecaoValorDeVendaNaoPodeSerMenorIgualAZero()
+    public void deveSerExecutadoComSucesso()
     {
         
-        Produto product = Produto.create("", "", "", "", "", "", Quantidade.of(1), Valor.of(0));
+        Produto product = Produto.create("Notbook RC", "sakjska876", "Lenovo", "8G", "I7", "Windows", Quantidade.of(1), Valor.of(10));
     }
 }

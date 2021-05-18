@@ -32,8 +32,7 @@ public class Produto {
      * @param processador           processaor do equipamento
      * @param sistemaOperacional    sistema operacional do equipamento
      * @param quantidade            quantidade de equipamentos
-     * @param valorDeCusto          valor de custo do equipamento
-     * @param valorDeVenda          valor de venda do equipamento
+     * @param valor                 valor do equipamento
      */
 
      private Produto(String modelo, String serial, String marca, String memoria, String processador, String sistemaOperacional, Quantidade quantidade, Valor valor) {
