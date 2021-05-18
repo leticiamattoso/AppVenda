@@ -2,7 +2,7 @@
 # Integrantes do grupo:
 ## Rodrigo Bertozzi | Letícia Mattoso | Marcelo Assis
 # Sobre o sistema
-Um Sistema que realiza vendas de computadores e calculo de preço de venda.
+Um Sistema que realiza vendas de computadores e calcula o preço da venda para o cliente.
 
 # Sobre as Personas
  Personas – Vendedores, interessados em realizar vendas de computadores.
