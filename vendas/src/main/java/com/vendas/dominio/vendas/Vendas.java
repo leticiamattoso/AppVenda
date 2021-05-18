@@ -27,7 +27,7 @@ public class Vendas {
      * Construtor da classe.
      * 
      * @param cliente cliente
-     * @param produto produto
+     * @param produtos produto
      */
 
     public Vendas(Cliente cliente, List<Produto> produtos) {
@@ -38,7 +38,11 @@ public class Vendas {
         this.produtos = produtos;
         this.data = LocalDate.now();
     }
-
+    /**
+     * 
+     * @param cliente
+     * @param produtos
+     */
     private void checkDadosDeEntrada(Cliente cliente, List<Produto> produtos) {
         if (cliente == null) {
             throw new IllegalArgumentException("cliente não informado.");
@@ -48,7 +52,10 @@ public class Vendas {
             throw new IllegalArgumentException("produtos do pedido incorreto.");
         }
     }
-
+    /**
+     * 
+     * @param produtos
+     */
     private void aplicarValorTotal(List<Produto> produtos) {
         this.valor = 0;
 
@@ -56,7 +63,10 @@ public class Vendas {
             this.valor += produto.getValor();
         }
     }
-
+    /**
+     * 
+     * @return valor
+     */
     public double getValor() {
         return this.valor;
     }
