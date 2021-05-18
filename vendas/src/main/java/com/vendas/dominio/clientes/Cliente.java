@@ -4,7 +4,7 @@ package com.vendas.dominio.clientes;
  * Um objeto da classe <code>Cliente</code> que armazena os dados do cliente a
  * partir de uma coleção de objetos da classe <code>Business</code>
  * 
- * @author Letícia Mattoso (leticiahmattoso@hotmail.com)
+ * @author Letícia Mattoso | Rodrigo Bertozzi | Marcelo Assis
  * @since 2021-05-17
  * @version 1.0
  * @see Busines
