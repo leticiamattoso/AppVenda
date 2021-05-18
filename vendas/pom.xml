@@ -6,7 +6,7 @@
   <groupId>com.vendas</groupId>
   <artifactId>vendas</artifactId>
   <packaging>jar</packaging>
-  <version>1.1-SNAPSHOT</version>
+  <version>1.1</version>
 
   <name>vendas</name>
   <!-- FIXME change it to the project's website -->
@@ -39,7 +39,7 @@
 
   <scm>
     <developerConnection>scm:git:https://github.com/leticiamattoso/AppVenda.git</developerConnection>
-    <tag>HEAD</tag>
+    <tag>vendas-1.1</tag>
   </scm>
 
   <distributionManagement>
