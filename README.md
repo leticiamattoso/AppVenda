@@ -1,6 +1,6 @@
 # Trabalho de laboratorio de projeto de sistemas
 # Integrantes do grupo:
-## Rodrigo Bertozzi | Letícia Mattoso | Marcelo Asssis
+## Rodrigo Bertozzi | Letícia Mattoso | Marcelo Assis
 # Sobre o sistema
 Um Sistema que realiza vendas de computadores e calculo de preço de venda.
 
