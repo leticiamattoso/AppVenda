@@ -7,7 +7,7 @@ import com.vendas.dominio.clientes.Cliente;
 import com.vendas.dominio.clientes.Documento;
 import com.vendas.dominio.clientes.Endereco;
 import com.vendas.dominio.produtos.Produto;
-import com.vendas.dominio.produtos.QuantidadeProduto;
+import com.vendas.dominio.produtos.Quantidade;
 import com.vendas.dominio.produtos.Valor;
 
 import org.junit.Before;

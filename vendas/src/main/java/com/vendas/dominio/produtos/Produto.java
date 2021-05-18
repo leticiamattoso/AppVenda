@@ -19,9 +19,8 @@ public class Produto {
     private final String memoria;
     private final String processador;
     private final String sistemaOperacional;
-    private final QuantidadeProduto quantidade;
-    private final ValorDeCusto valorDeCusto;
-    private final ValorDeVenda valorDeVenda;
+    private final Quantidade quantidade;
+    private final Valor valor;
 
     /**
      * Construtor da classe.
@@ -37,7 +36,7 @@ public class Produto {
      * @param valorDeVenda          valor de venda do equipamento
      */
 
-     private Produto(String modelo, String serial, String marca, String memoria, String processador, String sistemaOperacional, QuantidadeProduto quantidade, ValorDeCusto valorDeCusto, ValorDeVenda valorDeVenda) {
+     private Produto(String modelo, String serial, String marca, String memoria, String processador, String sistemaOperacional, Quantidade quantidade, Valor valor) {
         this.modelo = modelo;
         this.serial = serial;
         this.marca = marca;
@@ -45,23 +44,18 @@ public class Produto {
         this.processador = processador;
         this.sistemaOperacional = sistemaOperacional;
         this.quantidade = quantidade;
-        this.valorDeCusto = valorDeCusto;
-        this.valorDeVenda = valorDeVenda;
+        this.valor = valor;
      }
 
-     public static Produto create(String modelo, String serial, String marca, String memoria, String processador, String sistemaOperacional, QuantidadeProduto quantidade, ValorDeCusto valorDeCusto, ValorDeVenda valorDeVenda) {
-        return new Produto(modelo, serial, marca, memoria, processador, sistemaOperacional, quantidade, valorDeCusto, valorDeVenda);
+     public static Produto create(String modelo, String serial, String marca, String memoria, String processador, String sistemaOperacional, Quantidade quantidade, Valor valor) {
+        return new Produto(modelo, serial, marca, memoria, processador, sistemaOperacional, quantidade, valor);
      }
 
-     public QuantidadeProduto getQuantidade() {
+     public Quantidade getQuantidade() {
          return this.quantidade;
      }
 
-     public ValorDeCusto getValorDeCusto() {
-        return this.valorDeCusto;
-     }
-
-    public ValorDeVenda getValorDeVenda() {
-        return this.valorDeVenda;
+     public double getValor() {
+        return this.valor.getValorProduto();
      }
 }

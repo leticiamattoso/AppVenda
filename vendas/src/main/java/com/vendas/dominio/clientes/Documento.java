@@ -4,7 +4,7 @@ package com.vendas.dominio.clientes;
  * Um objeto da classe <code>Documento</code> que armazena o cpf ou cnpj 
  * a partir de uma coleção de objetos da classe <code>Business</code>
  * 
- * @author Letícia Mattoso | Rodrigo Bertozzi | Marcelo Assis
+ * @author Letícia Mattoso (leticiahmattoso@hotmail.com)
  * @since 2021-05-17
  * @version 1.0
  * @see Busines

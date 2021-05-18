@@ -1,4 +1,4 @@
-package com.vendas.dominio;
+package com.vendas.dominio.vendas;
 
 import org.joda.time.LocalDate;
 

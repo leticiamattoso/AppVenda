@@ -2,7 +2,7 @@ package com.vendas.dominio.produtos;
 
 import static org.junit.Assert.assertTrue;
 
-import com.vendas.dominio.produtos.QuantidadeProduto;
+import com.vendas.dominio.produtos.Quantidade;
 import com.vendas.dominio.produtos.Valor;
 
 import org.junit.Test;
