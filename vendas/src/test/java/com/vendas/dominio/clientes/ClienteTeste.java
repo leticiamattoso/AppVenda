@@ -10,21 +10,21 @@ import org.junit.Test;
 
 public class ClienteTeste {
 
-    @Test
+    @Test(expected = IllegalArgumentException.class)
     public void deveOcorrerAExcecaoNoEnderecoCep()
     {
         
         Cliente product = Cliente.create("José", Documento.of("111.111.111-11", ""), Endereco.of("", "rua", 100, "Poços de Caldas", "MG"));
     }
 
-    @Test
+    @Test(expected = IllegalArgumentException.class)
     public void deveOcorrerAExcecaoNoEnderecoCidade()
     {
         
         Cliente product = Cliente.create("José", Documento.of("111.111.111-11", ""), Endereco.of("125.987.9897", "rua", 100, "", "MG"));
     }
 
-    @Test
+    @Test(expected = IllegalArgumentException.class)
     public void deveOcorrerAExcecaoNoEnderecoEstado()
     {
         

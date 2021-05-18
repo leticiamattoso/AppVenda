@@ -48,7 +48,7 @@ public class VendaTest {
         Vendas venda = new Vendas(cliente, produtos);
     }
 
-    @Test
+    @Test(expected = IllegalArgumentException.class)
     public void deveOcorrerAExcecaoClienteNaoInformado() {
 
         List<Produto> produtos = Arrays.asList(produto1, produto2, produto3, produto4, produto5);

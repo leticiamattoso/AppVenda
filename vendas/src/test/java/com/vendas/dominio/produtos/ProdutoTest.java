@@ -15,14 +15,14 @@ public class ProdutoTest
     /**
      * Rigorous Test :-)
      */
-    @Test
+    @Test(expected = IllegalArgumentException.class)
     public void deveOcorrerAExcecaoQuantidadeNaoPodeSerMenorIgualAZero()
     {
         
         Produto product = Produto.create("", "", "", "", "", "", Quantidade.of(-11), Valor.of(10));
     }
 
-    @Test
+    @Test(expected = IllegalArgumentException.class)
     public void deveOcorrerAExcecaoValorNaoPodeSerMenorIgualAZero()
     {
         
