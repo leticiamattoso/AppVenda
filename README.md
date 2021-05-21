@@ -23,3 +23,6 @@ Um Sistema que realiza vendas de computadores e calcula o preço da venda para o
  cada venda.
  
  Como vendedor, preciso das informações de cada cliente para ter o controle para onde estão indo os produtos, se é pessoa física ou pessoa jurídica, ele necessita  de cadastro do nome, CPF/CNPJ e endereço.
+
+# Link para o diagrama
+https://lucid.app/lucidchart/3e0ad9ec-1328-428a-9845-5ae4ac419605/edit?shared=true&page=0_0#
